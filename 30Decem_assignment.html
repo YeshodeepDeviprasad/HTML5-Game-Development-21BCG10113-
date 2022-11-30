@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Student Counselling Registration
+    </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        #image{
+            display: grid;
+            place-items: center;
+        }
+        #statement{
+            display: grid;
+          
+            place-items: center;
+          
+            font-style: italic;
+           
+            
+        }
+        #emotional{
+            display: grid;
+            color: pink;
+            place-items: center;
+        }
+
+        #helping{
+            display: grid;
+            place-items: center;
+            font-style: italic;
+            color: pink;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(238, 240, 151);">
+    <h1 id="image">
+        <img src="https://s3-ap-south-1.amazonaws.com/blogmindler/bloglive/wp-content/uploads/2019/03/11113602/How-to-Become-a-Counsellor-in-India-770x385.png">
+        </h1>
+    <div id="statement">
+        <h1>We help students in every way possible</h1>
+    </div>
+    <div id="emotional">
+        <h1>If you are suffering low self esteem or need some emotional support, we are here for you.</h1>
+    </div>
+    <div>
+        <h2>
+            Here is the form to fill to let us help you.
+        </h2>
+
+    </div>
+    <form style="font-size: 24px">
+        <lable>
+            Your First Name:
+            </lable><br>
+            <input type="text" name="First name" required minlength="3" maxlength="20" size="30"/>
+            <br>
+            <br>
+            
+            <label>
+            Student's Last Name (Minimum: 3 Characters, Maximum: 20 Characters):
+            </label><br>
+            <input type="text" name="Last name" minlength="3" maxlength="20" size="30"/>
+            <br><br>
+            <label>
+            Age:
+            </label><br>
+            <input type="text" name="Age" required minlength="1" maxlength="2" size="5"/>
+            <br><br>
+            <label>
+            Gender:
+            </label><br>
+            <select>
+            <option value="select">-Select-</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label>
+            Parent's/ Guardian's Full Name:
+            </label><br>
+            <input type="text" name="Parent's full name" required minlength="5" maxlength="40" size="30"/>
+            <br><br>
+            <label>
+            Parent/ Guardion's Gender:
+            </label><br>
+            <select>
+            <option value="select">-Select-</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label>
+            Parent's/ Guardian's Occupation:
+            </label><br>
+            <input type="text" name="Parent's Occupation" required maxlength="20" size="30"/>
+            <br><br>
+            <label>
+            Who is Applying the form? 
+            </label><br>
+            <select>
+            <option value="Select">-Select-</option>
+                <option value="Student">Student</option>
+                <option value="Parent/Guardion">Parent/ Guardion</option>
+            </select>
+            <br><br>
+            <label>
+            Reason for applying for counselling?
+            </label>
+            <br>
+            <textarea cols="80" rows="6" value="Reason for applying for counselling?">
+            </textarea>
+            <br><br>
+            <p>
+            Contact Details:
+            </p>
+            <br>
+            <label>
+            Mobile/Phone Number (Please Mention Country Code too.):
+            </label><br>
+            <input type="text" name="mobile" required maxlength="13" size="15">
+            <br><br>
+            <label>
+                Email-id:
+            </label><br>
+            <input type="text" name="emailid" size="30">
+            <br><br>
+            <input type="submit" value="Ready for help" size="20">
+        </form>
+
+        <div id="helping">
+            <h1>WE ARE ALWAYS HERE TO HELP YOU HERE IS OUR CONTACT NUMBER: 65728745743</h1>
+        </div>
+</body>
